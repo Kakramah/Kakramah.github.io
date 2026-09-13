@@ -123,6 +123,9 @@ function initProjectFiltering() {
       applyFilters();
     });
   }
+
+  // حساب وتحديث عدد المشاريع المفعّلة فور تحميل الصفحة
+  applyFilters();
 }
 
 /**
