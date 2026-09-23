@@ -9,6 +9,13 @@
   "featured": ["hama-1982", "syria-rising-from-rubble", "syrian-missing-mothers", "cognitive-multiplier-ai"],
   "works": [
     {
+      "repo": "abnaa-al-khiyam",
+      "title": "يا من تقولوا أبناء الخيم",
+      "type": "memory",
+      "date": "2026-09-16",
+      "desc": "حسبوا أن الخيام مقابر للأحياء، فكانت مصانع للرجال الذين كسروا قيود نصف قرن من الاستبداد، حتى سقط نظام الدم في 8 كانون الأول 2024."
+    },
+    {
       "repo": "hama-1982",
       "title": "حماة لا تُنسى",
       "type": "memory",
