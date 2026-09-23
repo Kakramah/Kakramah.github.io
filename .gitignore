@@ -1,5 +1,7 @@
 .DS_Store
 ._*
-*.bak
 .env
-Thumbs.db
+*.bak
+node_modules/
+.impeccable/
+__pycache__/
