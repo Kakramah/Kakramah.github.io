@@ -6,7 +6,7 @@
 
 1. أضف العمل إلى `projects.json` (في `works` أو `clients` أو `tools`)، ولقطةً له في `images/thumb-<repo>.webp` بمقاس 640×360.
 2. شغّل `python3 build.py`. يبني `index.html` ويحسب العدد والشهور بنفسه.
-3. شغّل بوابة الويب من جذر المستودع: `bash ~/khaldoun-library/wiki/_tools/بوابة-الويب.sh`.
+3. شغّل بوابة الويب من جذر المستودع: `bash ~/khaldoun-projects/khaldoun-web-starter/scripts/بوابة-الويب.sh`.
 
 لا تعدّل `index.html` يدوياً؛ التعديل مكانه `index.template.html` أو `projects.json`.
 
