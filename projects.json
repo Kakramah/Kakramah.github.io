@@ -9,6 +9,13 @@
   "featured": ["hama-1982", "syria-rising-from-rubble", "syrian-missing-mothers", "cognitive-multiplier-ai"],
   "works": [
     {
+      "repo": "aleppo-souq-fire-2012",
+      "title": "حريق سوق المدينة بحلب القديمة · 2012",
+      "type": "memory",
+      "date": "2026-09-26",
+      "desc": "تحقيق استقصائي وتوثيقي يرصد جريمة إحراق سوق المدينة التاريخي بقذائف الاستبداد في 26 أيلول 2012، ويخلد صمود الحجر الحلبي وشواهد الوقعة وإرادة البناء."
+    },
+    {
       "repo": "abnaa-al-khiyam",
       "title": "يا من تقولوا أبناء الخيم",
       "type": "memory",
