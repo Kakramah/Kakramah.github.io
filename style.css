@@ -242,11 +242,10 @@ html { scrollbar-color: var(--rule) var(--paper); }
 .eagle { width: 120px; }
 .accounts { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; }
 .accounts a {
-  display: inline-flex; align-items: center; gap: .55rem; min-height: 44px; padding: .5rem 1.05rem;
-  border-radius: 2rem; background: color-mix(in srgb, var(--on-green) 10%, transparent); transition: background-color .2s;
+  display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px;
+  border-radius: 50%; background: color-mix(in srgb, var(--on-green) 10%, transparent); transition: background-color .2s;
 }
 .accounts a:hover { background: color-mix(in srgb, var(--on-green) 20%, transparent); }
-.accounts span { unicode-bidi: isolate; }
 
 .share { display: grid; gap: .7rem; justify-items: center; }
 .share h3 { font-family: var(--text); font-size: 1rem; font-weight: 500; }
@@ -280,8 +279,6 @@ html { scrollbar-color: var(--rule) var(--paper); }
   .row .t { font-size: 1.12rem; }
   .row2 { grid-template-columns: 1fr; }
   .ident { width: 100%; }
-  .accounts { flex-direction: column; align-items: stretch; width: 100%; }
-  .accounts a { display: flex; justify-content: center; }
 }
 @media (max-width: 420px) {
   .brand span { display: none; }

@@ -30,7 +30,7 @@ def plain(s):
 def thumb(repo, alt_title, cls, lazy=True, w=640, h=360):
     load = ' loading="lazy" decoding="async"' if lazy else ' fetchpriority="high"'
     return (f'<img class="{cls}" src="images/thumb-{repo}.webp" '
-            f'alt="الصفحة الأولى من «{html.escape(plain(alt_title))}»" width="{w}" height="{h}"{load}>')
+            f'alt="الصفحة الأولى من: {html.escape(plain(alt_title))}" width="{w}" height="{h}"{load}>')
 
 
 def link(repo):
