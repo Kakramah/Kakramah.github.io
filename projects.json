@@ -6,7 +6,12 @@
     "jableh": "جبلة",
     "campaign": "حملات"
   },
-  "featured": ["hama-1982", "syria-rising-from-rubble", "syrian-missing-mothers", "cognitive-multiplier-ai"],
+  "featured": [
+    "hama-1982",
+    "syria-rising-from-rubble",
+    "syrian-missing-mothers",
+    "cognitive-multiplier-ai"
+  ],
   "works": [
     {
       "repo": "middle-east-power-trap",
