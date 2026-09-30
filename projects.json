@@ -7,12 +7,20 @@
     "campaign": "حملات"
   },
   "featured": [
+    "motor-site",
     "hama-1982",
     "syria-rising-from-rubble",
     "syrian-missing-mothers",
     "cognitive-multiplier-ai"
   ],
   "works": [
+    {
+      "repo": "motor-site",
+      "title": "موتور | حملة توعية",
+      "type": "campaign",
+      "date": "2026-09-30",
+      "desc": "حملة توعوية سينمائية حول أخطار الدراجات النارية والقيادة المتهورة، مع تصميم غامر وسرد تفاعلي."
+    },
     {
       "repo": "middle-east-power-trap",
       "title": "كيف وقعت إيران في الشباك الأمريكية",
