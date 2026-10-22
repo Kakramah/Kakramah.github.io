@@ -96,7 +96,6 @@ html { scrollbar-color: var(--rule) var(--paper); }
   font-weight: 500; color: var(--ink-2); padding: .55rem .8rem; border-radius: 8px; min-height: 44px;
   display: inline-flex; align-items: center; transition: color .2s, background-color .2s;
 }
-.bar nav a:hover { color: var(--green); background: var(--paper-sunk); }
 
 /* الافتتاحية: الاسم وأول الأعمال */
 .intro {
@@ -113,19 +112,16 @@ html { scrollbar-color: var(--rule) var(--paper); }
   transition: background-color .25s var(--ease), transform .25s var(--ease);
 }
 .go::after { content: ""; width: .5rem; height: .5rem; border-block-end: 2px solid currentColor; border-inline-start: 2px solid currentColor; transform: rotate(-45deg) translateY(-2px); }
-.go:hover { background: var(--green-deep); transform: translateY(-1px); }
 
 .lead-work figure { margin: 0; }
 .lead-work .lead-img {
   width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius);
   box-shadow: 0 1px 2px var(--shade), 0 18px 40px -18px var(--shade-deep);
-  transition: transform .6s var(--ease), box-shadow .6s var(--ease);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease);
 }
 .lead-work figcaption { display: grid; gap: .35rem; margin-top: 1rem; }
 .lead-work .t { font-family: var(--display); font-weight: 700; font-size: clamp(1.5rem, 2.4vw, 2rem); line-height: 1.35; }
 .lead-work .d { color: var(--ink-2); max-width: 60ch; }
-.lead-work:hover .lead-img { transform: translateY(-4px); box-shadow: 0 2px 4px var(--shade), 0 28px 50px -20px var(--shade-deep); }
-.lead-work:hover .t, .feat:hover h3, .row a:hover .t, .minis a:hover .t { color: var(--green); }
 .meta { font-size: .9rem; color: var(--ink-3); font-weight: 500; }
 
 /* المختارات الثلاث */
@@ -137,9 +133,8 @@ html { scrollbar-color: var(--rule) var(--paper); }
 .feat .feat-img {
   width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; margin-bottom: .55rem;
   box-shadow: 0 1px 2px var(--shade), 0 12px 28px -16px var(--shade-deep);
-  transition: transform .5s var(--ease);
+  transition: transform .3s var(--ease);
 }
-.feat:hover .feat-img { transform: translateY(-3px); }
 .feat h3 { font-size: 1.3rem; transition: color .2s; }
 .feat p { color: var(--ink-2); font-size: 1rem; line-height: 1.7; }
 
@@ -165,10 +160,9 @@ html { scrollbar-color: var(--rule) var(--paper); }
 .chip {
   font: inherit; font-weight: 500; font-size: .98rem; cursor: pointer; min-height: 44px;
   background: transparent; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 999px; padding: .45rem 1rem;
-  display: inline-flex; align-items: center; gap: .4rem; transition: all .2s var(--ease);
+  display: inline-flex; align-items: center; gap: .4rem; transition: background-color .2s var(--ease), border-color .2s var(--ease), color .2s var(--ease);
 }
 .chip .n { font-size: .82rem; color: var(--ink-3); }
-.chip:hover { border-color: var(--ink-3); color: var(--ink); }
 .chip[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: var(--on-green); }
 .chip[aria-pressed="true"] .n { color: var(--green-wash); }
 .shown { color: var(--ink-3); font-size: .95rem; }
@@ -184,8 +178,7 @@ html { scrollbar-color: var(--rule) var(--paper); }
   display: grid; grid-template-columns: 13.5rem minmax(0, 1fr); gap: 1.5rem; align-items: center;
   padding: 1.1rem 0; border-bottom: 1px solid var(--rule);
 }
-.row-img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; transition: transform .45s var(--ease), box-shadow .45s var(--ease); }
-.row a:hover .row-img { transform: scale(1.03); box-shadow: 0 10px 24px -14px var(--shade-deep); }
+.row-img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
 .row-text { display: grid; gap: .25rem; }
 .row .t { font-family: var(--display); font-weight: 700; font-size: 1.28rem; line-height: 1.45; transition: color .2s; }
 .row .d { color: var(--ink-2); max-width: 70ch; line-height: 1.7; }
@@ -230,7 +223,6 @@ html { scrollbar-color: var(--rule) var(--paper); }
   background: var(--paper-lift); color: var(--green-deep); border: 0; border-radius: 999px; padding: .7rem 1.6rem;
   transition: transform .2s var(--ease), background-color .2s;
 }
-.send:hover { background: var(--on-green); transform: translateY(-1px); }
 .send:disabled { opacity: .6; cursor: progress; transform: none; }
 .form-note { min-height: 1.5em; font-size: .95rem; }
 .success-message { width: 100%; background: color-mix(in srgb, var(--on-green) 12%, transparent); border-radius: var(--radius); padding: 1.1rem 1.3rem; }
@@ -245,7 +237,6 @@ html { scrollbar-color: var(--rule) var(--paper); }
   display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px;
   border-radius: 50%; background: color-mix(in srgb, var(--on-green) 10%, transparent); transition: background-color .2s;
 }
-.accounts a:hover { background: color-mix(in srgb, var(--on-green) 20%, transparent); }
 
 .share { display: grid; gap: .7rem; justify-items: center; }
 .share h3 { font-family: var(--text); font-size: 1rem; font-weight: 500; }
@@ -255,7 +246,18 @@ html { scrollbar-color: var(--rule) var(--paper); }
   color: var(--on-green); background: transparent; border: 1px solid color-mix(in srgb, var(--on-green) 35%, transparent);
   border-radius: 999px; padding: .4rem .95rem; transition: background-color .2s;
 }
-.share-btn:hover { background: color-mix(in srgb, var(--on-green) 12%, transparent); }
+@media (hover: hover) and (pointer: fine) {
+  .bar nav a:hover { color: var(--green); background: var(--paper-sunk); }
+  .go:hover { background: var(--green-deep); transform: translateY(-1px); }
+  .lead-work:hover .lead-img { transform: translateY(-4px); box-shadow: 0 2px 4px var(--shade), 0 28px 50px -20px var(--shade-deep); }
+  .lead-work:hover .t, .feat:hover h3, .row a:hover .t, .minis a:hover .t { color: var(--green); }
+  .feat:hover .feat-img { transform: translateY(-3px); }
+  .chip:hover { border-color: var(--ink-3); color: var(--ink); }
+  .row a:hover .row-img { transform: scale(1.03); box-shadow: 0 10px 24px -14px var(--shade-deep); }
+  .send:hover { background: var(--on-green); transform: translateY(-1px); }
+  .accounts a:hover { background: color-mix(in srgb, var(--on-green) 20%, transparent); }
+  .share-btn:hover { background: color-mix(in srgb, var(--on-green) 12%, transparent); }
+}
 .copied { min-height: 1.4em; font-size: .9rem; }
 .rights { font-size: .9rem; opacity: .85; }
 
