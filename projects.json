@@ -14,6 +14,13 @@
   ],
   "works": [
     {
+      "repo": "compass-of-integrity",
+      "title": "أصلح بوصلتك",
+      "type": "thought",
+      "date": "2026-10-23",
+      "desc": "مقالة تفاعلية عن استنزاف الروح حين تنقلب المعايير، والثبات على المبدأ والنجاة بالفطرة."
+    },
+    {
       "repo": "fitna-ashadd-min-al-qatl",
       "title": "الفتنة أشد من القتل",
       "type": "thought",
