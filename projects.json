@@ -14,6 +14,13 @@
   ],
   "works": [
     {
+      "repo": "the-joy-of-giving",
+      "title": "حين تصبح السعادة عطاءً",
+      "type": "thought",
+      "date": "2026-10-28",
+      "desc": "حكاية متداولة عن العطاء ومراحل السعادة، تنتهي بلقاء يترك أثراً لا يُنسى."
+    },
+    {
       "repo": "hidden-battle",
       "title": "ما لا تراه",
       "type": "thought",
